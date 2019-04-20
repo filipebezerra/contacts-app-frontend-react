@@ -24,6 +24,7 @@ class CreateContact extends Component {
           <div className="create-contact-details">
             <input type="text" id="name" name="name" placeholder="Name" />
             <input type="email" id="email" name="email" placeholder="Email" />
+            <input type="tel" id="phone" name="phone" placeholder="Phone number" />
             <button>Add Contact</button>
           </div>
         </form>
